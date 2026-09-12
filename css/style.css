@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+header{
+    background-color: #222222;
+}
+.barra_navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.texto-verde{
+    color: rgb(2, 160, 2);
+}
+.texto-blanco{
+    color: #F3F3F3;
+}
+.texto-rojo{
+    color: red;
+}
+.contenedor-enlaces{
+    display: flex;
+    list-style: none;  
+    gap: 15px;
+    
+}
+.contenedor-enlaces li{
+    margin: 15px;
+}
+.contenedor-enlaces a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+.contenedor-menu{
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.menu-delivery{
+    position: relative;
+    width: 500px;
+}
+.menu-delivery h2{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.menu-pizzas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 500px;
+}
+.menu-pizzas h2{
+    margin-bottom: 20px;
+}
+.menu-top5{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+.menu-lista h3{
+    margin-bottom: 15px;
+}
+.menu-lista ol{
+    font-weight: bold;
+}
+.menu-lista li{
+    margin-bottom: 10px;
+}
+.imagen-pizzas{
+    width: 150px;
+    height: 180px;
+    text-align: right;
+}
+footer{
+    background-color: #222222;
+    height: 160px;
+}
+.footer_navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-enlaces{
+    list-style: none;
+}
+.footer-enlaces a{
+    text-decoration: none;
+    
+    color: white;
+}
+.footer-enlaces li{
+   margin-top: 10px;
+   margin-left: 15px;
+}
