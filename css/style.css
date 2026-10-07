@@ -5,18 +5,15 @@
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 header{
-    background-color: #222222;
-}
-.barra_navegacion{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: white;
+    background-color: #222222;
+    padding: 15px 20px;
 }
 .logo{
     display: flex;
     align-items: center;
-    margin: 10px;
+    gap: 15px;
 }
 .texto-verde{
     color: rgb(2, 160, 2);
@@ -27,88 +24,89 @@ header{
 .texto-rojo{
     color: red;
 }
-.contenedor-enlaces{
+.barra_navegacion{
+    display: flex;
+    align-items: center;
+}
+.contenedor-enlaces ul{
     display: flex;
     list-style: none;  
     gap: 15px;
-    
-}
-.contenedor-enlaces li{
-    margin: 15px;
 }
 .contenedor-enlaces a{
     text-decoration: none;
-    color: white;
+    color: #F3F3F3;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    padding: 40px 20px;
-}
+/*parte izquierda*/
 .contenedor-menu{
-    padding: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
+    padding: 40px 15px;
+    justify-content: space-evenly;
 }
 .menu-delivery{
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 490px;
+    height: 350px;
     position: relative;
-    width: 500px;
 }
-.menu-delivery h2{
+.titulo-delivery{
     position: absolute;
+    font-size: 24px;
     top: 20px;
-    left: 10px;
+    left: 20px;
+    font-weight: bold;
+}
+/*parte derecha*/
+.menu-podio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+}
+.titulo-podio{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 60px ;
 }
 .menu-pizzas{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    background-color: #FFFFFF;
-    width: 500px;
+    gap: 60px;
 }
-.menu-pizzas h2{
-    margin-bottom: 20px;
-}
-.menu-top5{
-    display: flex;
-    gap: 50px;
-    padding: 20px;
-}
-.menu-lista h3{
-    margin-bottom: 15px;
-}
-.menu-lista ol{
+.menu-top{
+    font-size: 16px;
     font-weight: bold;
 }
-.menu-lista li{
-    margin-bottom: 10px;
+.menu-top p{
+    margin-bottom: 20px;
+    font-weight: bold;
 }
-.imagen-pizzas{
-    width: 150px;
-    height: 180px;
-    text-align: right;
+.menu-top ol{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left:  20px; 
 }
 footer{
     background-color: #222222;
-    height: 160px;
-}
-.footer_navegacion{
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    height: 155px;
 }
-.footer-enlaces{
-    list-style: none;
+.pie-enlaces ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-.footer-enlaces a{
+.pie-enlaces li{
+    list-style-type: none;
+}
+.pie-enlaces a{
+    color: #F3F3F3;
     text-decoration: none;
-    
-    color: white;
-}
-.footer-enlaces li{
-   margin-top: 10px;
-   margin-left: 15px;
 }
